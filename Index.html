@@ -43,7 +43,17 @@ h4.serif {
 </style>
 </head>    
 <body>
-
+<button onclick="document.getElementById('date').innerHTML=Date()">The time is?</button>
+ <script>
+function displayDate() {
+  document.getElementById("date").innerHTML = Date();
+}
+</script>
+    
+<script>
+window.alert(5 + 2);
+</script>    
+    
 <h2 class="one">Kyle Harris</h2> 
     <div>7576 Champaign Ave NW Canal Fulton, OH 44614<br>330-903-0406 (cell)<br><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">kharri72@kent.edu</a></div>
 <section>
@@ -63,6 +73,16 @@ h4.serif {
     <p class="serif">Class of 2016<br>Completed Cisco Networking (2-year program)-<br></p>
     
 <h4 class="serif">IT Essentials: PC Hardware and Software</h4>  <img src="https://pbs.twimg.com/profile_images/925717136281976832/UUA8Cz6q_400x400.jpg" alt="ciscopic" width="100" height="100">
+    
+    <button onclick="myFunction()">Example of what we learn</button>
+
+<script>
+function myFunction() {
+  alert("how to put messages!");
+}
+</script>
+        
+    
     <ul>
         <li><b>Information Technology-</b>Provided working knowledge of input/output systems, computer
 hardware and operating systems, safety and security.</li>
@@ -74,6 +94,7 @@ using remote assistance. Applied knowledge and skill of commercial and open sour
 operating systems in portable, stand alone, and networked devices.</li>
 </ul>
 
+    
  <h4 class="serif">CCNA Routing and Switching: Introduction to Networks</h4>   
  <ul>
      <li><b>Networking-</b> Install, configure and troubleshoot network hardware and peripherals.</li>
@@ -101,5 +122,28 @@ and switches.</li>
     <li>Jackson High School Cross Country Team (2012-2015)</li>
 </ul>
     </section>
+    
+<script>
+var x, y, z; 
+x = 10;    
+y = 5;   
+z = x + y;  
+
+document.getElementById("demo").innerHTML =
+"This is an example of what I learned in coding, adding numbers to equal " + z + ".";  
+</script>    
+ 
+<button onclick="myFunction()">Click to know more</button>
+
+<p id="start"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("start").innerHTML = "other activities I like are listed here ";
+}
+</script>    
+    
+    
+
 </body>
 </html>
